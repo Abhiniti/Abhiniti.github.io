@@ -1,0 +1,141 @@
+/* Homework HTML/CSS */
+.navbar {
+  background: #FFFFFF;
+}
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+.navbar li {
+  font-size: 25px;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #20B2AA;
+}
+
+/* Getting rid of the default link styles here 
+.navbar li a {
+  color: #20B2AA;
+  text-decoration: none;
+}
+*/
+body {
+	background-color: #cdcdcd;
+}
+
+#container {
+	position: relative;
+}
+/*
+#container {
+    width: 300px;
+    background-color: lightblue;
+    margin: auto;
+}
+*/
+
+#first {
+	width: 50%;
+	height: 600px;
+	background: white;
+	float: left;
+}
+#second {
+	width: 35%;
+	height: 500px;
+	background: white;
+	float: right;
+}
+
+h1 {
+	margin-left: 30px;
+	color: #20B2AA;
+}
+
+hr {
+	width: 90%;
+	opacity: 0.5;
+}
+
+#first p {
+	margin-left: 30px;
+	font-family: Arial;
+	font-size: 20px;
+	color: #A9A9A9;
+	margin-right: 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#navLinks1 {
+	width: 30px;
+	font-size: 20px; 
+	background-color: white; 
+	color: black; 
+	font-family: Arial;
+	color: #A9A9A9;
+}
+#navLinks2 {
+	width: 90px; 
+	font-size: 20px; 
+	background-color: white; 
+	color: black;
+	font-family: Arial;
+	color: #A9A9A9;
+}
+#navLinks3 {
+	width: 30px;
+	font-size: 20px; 
+	background-color: white; 
+	color: black; 
+	font-family: Arial;
+	color: #A9A9A9;
+}
+
+#comparison {
+	width: 1400px;
+	height: 800px;
+	background: white;
+}
+
+#comparison figure {
+	float: left;
+}
+
+.dropbtn {
+	background-color: white;
+    color: #A9A9A9;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
